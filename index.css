@@ -1,0 +1,30 @@
+
+.container{
+    position :relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+h1{
+    color:black;
+}
+
+.btn {
+    transition-duration: 0.4s;
+    padding: 10px;
+    border:none;
+    width:25%;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
